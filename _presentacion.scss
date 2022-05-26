@@ -1,0 +1,18 @@
+@mixin fontstyle {
+    font-size: 20px;
+    color: rgb(252, 246, 246)
+}
+
+.presentacion {
+    @include fontstyle();
+    text-align: center;
+    .conocenos {
+        font-family: 'Josefin Sans', sans-serif;
+}
+    .gabriela {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 40px;
+ }
+}

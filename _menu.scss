@@ -1,0 +1,28 @@
+
+nav{
+    background-color: rgb(223, 87, 110);
+    background-size: 20px;
+    height: 100px;
+    width: 100%;
+    ul{
+        float: right;
+        margin-right: 20px;
+    }
+    li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+            &:hover{
+                background-color: rgb(252, 118, 140);
+            }
+
+    }
+    a{
+        color: rgb(17, 16, 16);
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        background-color: rgb(240, 167, 179);
+        text-decoration: none;
+    }
+}

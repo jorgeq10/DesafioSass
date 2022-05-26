@@ -1,0 +1,98 @@
+body {
+  background-color: #d67f8d;
+}
+
+nav {
+  background-color: #df576e;
+  background-size: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav li:hover {
+  background-color: #fc768c;
+}
+
+nav a {
+  color: #111010;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  background-color: #f0a7b3;
+  text-decoration: none;
+}
+
+.presentacion {
+  font-size: 20px;
+  color: #fcf6f6;
+  text-align: center;
+}
+
+.presentacion .conocenos {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.presentacion .gabriela {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 40px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+footer .redes {
+  color: #161414;
+  font-size: 20px;
+  font-style: oblique;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: auto;
+}
+
+footer .insta {
+  width: 60px;
+  height: 60px;
+}
+
+footer .face {
+  width: 60px;
+  height: 60px;
+  margin-left: 6px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+@mixin fontstyle {
+    color: rgb(22, 20, 20);
+    font-size: 20px;
+    font-style: oblique;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    .redes {
+        @include fontstyle();
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+
+    .insta {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .face {
+        width: 60px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+}
